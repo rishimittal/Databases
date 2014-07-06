@@ -1,0 +1,22 @@
+
+				-------------------------------------------------------
+										README
+				-------------------------------------------------------
+
+	1. jar included "gsp.jar" , link : http://www.sqlparser.com/download.php
+	2. To execute run the command   sh run.sh <arg1> 
+	    where arg1 = config file path
+	3. Select Query
+		1. Parses the select Query depending on the attribute specified.
+		2. Validates the table name , column names, and evalute the condition
+		   based on table schema, provided in config file.
+		3. Outputs either invalid Query or the Query tokens specified as
+			in the deleverable document.
+	4. Returns the output of the select query:
+		a. Paring the query after validation.
+		b. Performing the external merge sort when order by is asked to do, if multiple values are equal then
+		either sort on the other order by clause or default order.
+		c. reading line by line for the satifying arguemnts, out of the where clause.
+		d. storing data upto the maximum limit mentioned in the config file.
+	5. We have created the index on the data file.
+		

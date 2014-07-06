@@ -1,0 +1,14 @@
+PAGESIZE 1024
+NUM_PAGES 1024
+PATH_FOR_DATA /tmp/dbs/
+BEGIN
+employee
+employee_id,int
+employee_name,string
+END
+BEGIN
+student
+sid,int
+sname,string
+sbatch,string
+END

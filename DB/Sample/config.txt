@@ -1,0 +1,16 @@
+PAGESIZE 100
+NUM_PAGES 4
+PATH_FOR_DATA /home/rishimittal/Documents/SEM2/DB/Sample
+BEGIN
+countries
+id, int
+code, varchar
+name, varchar
+continent, varchar
+END
+BEGIN
+airports
+id, int
+name, varchar
+city, varchar
+END

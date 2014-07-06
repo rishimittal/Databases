@@ -1,0 +1,8 @@
+7
+select id, code from countries 
+select id, name from countries 
+select name,continent from countries 
+select * from countries where id>302670 
+select id, name from countries where id =302620 and code like 'am' 
+select id, name from countries where id=302620 or continent='AF' or id=22 order by name 
+select nam from countries

@@ -1,0 +1,19 @@
+
+				-------------------------------------------------------
+										README
+				-------------------------------------------------------
+
+	1. jar included "gsp.jar" , link : http://www.sqlparser.com/download.php
+	2. To execute run the command   sh run.sh <arg1> <arg2>
+	    where arg1 = config file path
+			  arg2 = input file path
+	3. Create query : 
+		1. Adds entry in the system config file
+		2. Makes two files <tablename>.data, <tablename>.csv
+		3. .data file has the column structure
+	4. Select Query
+		1. Parses the select Query depending on the attribute specified.
+		2. Validates the table name , column names, and evalute the condition
+		   based on table schema, provided in config file.
+		3. Outputs either invalid Query or the Query tokens specified as
+			in the deleverable document.

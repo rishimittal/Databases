@@ -1,0 +1,1 @@
+Select distinct * from college where name = 'rishi' and age > 25

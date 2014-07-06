@@ -1,0 +1,14 @@
+PAGESIZE 30
+NUM_PAGES 4
+PATH_FOR_DATA /home/rishimittal/Documents/SEM2/DB/Sample
+BEGIN
+employee
+employee_id,int
+employee_name,string
+END
+BEGIN
+student
+sid,int
+sname,string
+sbatch,string
+END
